@@ -1,0 +1,42 @@
+<!--pages/dingdan/dingdan.wxml-->
+<view class="history">历史订单</view>
+<scroll-view scroll-y>
+  <!-- 单个订单列表 -->
+  <view class='list'>
+    <view class='left'>
+      <image src='cloud://demo-5d51e2.6465-demo-5d51e2/xiaoyan/WechatIMG15.jpeg'></image>
+    </view>
+    <view class='right'>
+      <view class='price'>
+        <text>小燕麻辣烫</text>
+      </view>
+      <view class='jine'>
+        <text>消费金额:</text>
+        <text class='jineNum'>200.00</text>
+      </view>
+      <view class='jine'>
+        <text>消费日期:</text>
+        <text class='jineNum'>20000-000</text>
+      </view>
+    </view>
+  </view>
+  <!-- 单个订单列表 -->
+  <view class='list'>
+    <view class='left'>
+      <image src='cloud://demo-5d51e2.6465-demo-5d51e2/xiaoyan/WechatIMG15.jpeg'></image>
+    </view>
+    <view class='right'>
+      <view class='price'>
+        <text>小燕麻辣烫</text>
+      </view>
+      <view class='jine'>
+        <text>消费金额:</text>
+        <text class='jineNum'>200.00</text>
+      </view>
+      <view class='jine'>
+        <text>消费日期:</text>
+        <text class='jineNum'>20000-000</text>
+      </view>
+    </view>
+  </view>
+</scroll-view>

@@ -1,0 +1,21 @@
+<!--pages/main/main.wxml-->
+<scroll-view scroll-y>
+<!-- 单个商品列表 -->
+  <view class='list' wx:for="{{list}}">
+    <view class='left'>
+      <image src="{{item.img}}"></image>
+    </view>
+    <view class='right'>
+      <view class='price'>
+        <view>{{item.name}}</view>
+        <text>单价</text>
+        <text class='danjia'>{{item.price}}</text>
+      </view>
+      <view class='buyNum'>
+        <button value="jian" bindtap='jian'>-</button>
+        <text class='buyNumText'>{{item.buyNUM}}</text>
+        <button bindtap='jia' data-index>+</button>
+      </view>
+    </view>
+  </view>
+</scroll-view>

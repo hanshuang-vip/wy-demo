@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/dingdan/dingdan",
+    "pages/main/main",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "外卖",
+        "iconPath": "pages/img/wode.png",
+        "selectedIconPath": "pages/img/wode.png"
+      },
+      {
+        "pagePath": "pages/dingdan/dingdan",
+        "text": "订单",
+        "iconPath": "pages/img/dingdan.png",
+        "selectedIconPath": "pages/img/dingdan.png"
+      }
+    ]
+  }
+}
